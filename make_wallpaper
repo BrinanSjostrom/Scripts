@@ -1,5 +1,10 @@
 #!/bin/bash
 
+###############################
+# Makes a picture into the file
+# wallpaper which is used in
+# all of my configuration files
+###############################
 
 if [ $# -ne 1 ]
 then

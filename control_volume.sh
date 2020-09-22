@@ -1,5 +1,12 @@
 #!/bin/bash
 
+
+#############################
+# Simple script that controls
+# volume with the amixer
+# program
+#############################
+
 if [ $# -ne 1 ]
 then
 	exit

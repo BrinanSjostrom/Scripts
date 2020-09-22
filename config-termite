@@ -1,3 +1,9 @@
 #!/bin/bash
 
+###########################
+# This script vims into the
+# termite configuration
+# file
+###########################
+
 vim ~/.config/termite/config
