@@ -7,6 +7,15 @@
 # program
 #############################
 
+# The + option will increase volume
+# The - option will decrease volume
+# The m option will mute volume
+# The M option will max out the volume
+# Example : ./control volume +
+
+# MUST HAVE amixer INSTALLED
+# sudo pacman -S alsa-utils
+
 if [ $# -ne 1 ]
 then
 	exit
@@ -18,7 +27,6 @@ then
 fi
 
 CURR_VOL=$(amixer -c 0 get Master | egrep -o '[0-9]?[0-9]?[0-9][ ][\[]' | egrep -o '[0-9]?[0-9]?[0-9]')
-echo $CURR_VOL
 
 if [ $1 == '+' ]
 then
