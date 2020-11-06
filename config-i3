@@ -1,8 +1,3 @@
 #!/bin/bash
 
-#############################
-# This script simply uses vim	
-#	to edit the config file for
-# i3wm
-#############################
 vim ~/.config/i3/config

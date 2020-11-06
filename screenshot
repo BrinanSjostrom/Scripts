@@ -1,10 +1,3 @@
 #!/bin/bash
 
-##################################
-# Taken out of the lock.sh script.
-# This file just takes a screen-
-# shot of your screen for
-# so you can use it for r/UNIXPORN
-##################################
-
 import -window root ~/screen.png

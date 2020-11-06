@@ -1,21 +1,5 @@
 #!/bin/bash
 
-
-#############################
-# Simple script that controls
-# volume with the amixer
-# program
-#############################
-
-# The + option will increase volume
-# The - option will decrease volume
-# The m option will mute volume
-# The M option will max out the volume
-# Example : ./control volume +
-
-# MUST HAVE amixer INSTALLED
-# sudo pacman -S alsa-utils
-
 if [ $# -ne 1 ]
 then
 	exit
